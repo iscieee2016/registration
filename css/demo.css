@@ -1,0 +1,70 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	background-size: cover;
+	background-color: #6bbddb;
+}
+a {
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.body {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 40px;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+}
+.body-s {
+	max-width: 400px;
+}
+
+@media screen and (max-width: 600px) {
+	.body {
+		padding: 20px;
+	}
+}
+
+.RegistrationFees table { 
+    border-collapse: collapse; 
+    text-align: left; 
+    width: 100%; 
+} 
+.RegistrationFees {
+    background: #fff; 
+    overflow: hidden; 
+    color: #666;
+}
+.RegistrationFees table td, .datagrid table th { 
+    padding: 4px 4px; 
+}
+.RegistrationFees table thead th {
+    background-color:rgba(0,0,0,.075); 
+    color: #666; 
+    font-weight: normal;
+    text-align: center;
+    padding: 4px 4px; 
+} 
+.RegistrationFees table thead th:first-child { 
+    border: none; 
+}
+.RegistrationFees table tbody td { 
+    font-weight: normal; 
+    text-align: center;
+    color: #666;
+}
+.RegistrationFees table tbody .alt td { 
+    background: rgba(0,0,0,.05); 
+    color: #666;
+}
+.RegistrationFees table tbody td:first-child { 
+    border-left: none; 
+}
+.RegistrationFees table tbody tr:last-child td { 
+    border-bottom: none; 
+}
