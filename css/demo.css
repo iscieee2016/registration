@@ -44,8 +44,8 @@ a:hover {
     padding: 4px 4px; 
 }
 .RegistrationFees table thead th {
-    background-color:rgba(0,0,0,.075); 
-    color: #666; 
+    background-color: #510f5b;
+    color: #FFFFFF;
     font-weight: normal;
     text-align: center;
     padding: 4px 4px; 
@@ -59,8 +59,8 @@ a:hover {
     color: #666;
 }
 .RegistrationFees table tbody .alt td { 
-    background: rgba(0,0,0,.05); 
-    color: #666;
+    background: #E1EEF4; 
+    color: #00496B;
 }
 .RegistrationFees table tbody td:first-child { 
     border-left: none; 
